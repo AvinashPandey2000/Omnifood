@@ -65,6 +65,30 @@ h1{
     word-spacing: 4px;
 }
 
+h2{
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 20px;
+    margin-bottom: 30px;
+    
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #d35400;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+    font-weight: 300;
+    margin-bottom: 20px; 
+    font-weight: 300;
+    display: block;
+}
 /* -------------------------------------- */
 /* Button styling */
 /* -------------------------------------- */
@@ -130,5 +154,26 @@ letter-spacing: 1px;
 .main-nav li a:active
 {
 border-bottom: 2px solid white;
-color: #993d00; ;
+color: #bd4c02 ;
+}
+
+.icon{
+    width: 50px;
+}
+.section{
+    padding: 80px 0px;
+}
+
+.loge-copy{
+    font-family: sans-serif;
+    word-spacing: 2px;
+    width: 100%;
+}
+.features div{
+    padding: 10px;
+}
+ion-icon{
+font-size: 400%;
+display: block;
+color: #bd4c02;
 }
