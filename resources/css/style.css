@@ -1,3 +1,6 @@
+/* -------------------------------------- */
+/* Basic setup */
+/* -------------------------------------- */
 *{
     margin: 0;
     padding: 0;
@@ -12,11 +15,26 @@ html{
     font-size: 20px0;
     text-rendering: optimizeLegibility;
 }
+
+
+
+
+/* -------------------------------------- */
+/* HEADER STYLING */
+/* -------------------------------------- */
+
+/* -------------------------------------- */
+/* center the text */
+/* -------------------------------------- */
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
 
+
+/* -------------------------------------- */
+/* Set the header img */
+/* -------------------------------------- */
 header{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero.jpg);
     height: 100vh;
@@ -31,7 +49,86 @@ header{
     transform: translate(-50%, -50%);
 
 }
+
+
+/* -------------------------------------- */
+/* Style the  h1 tag  */
+/* -------------------------------------- */
 h1{
     margin: 0;
+    margin-bottom: 25px;
     color: white;
+    font-weight: 300;
+    font-size: 240%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/* -------------------------------------- */
+/* Button styling */
+/* -------------------------------------- */
+.btn:link,
+.btn:visited{
+    text-decoration: none;
+    font-weight: 300;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 200px;
+    color: white;
+    border: 1px solid #d35400;
+
+
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color: #d35400;
+
+}
+.btn-gost:visited,
+.btn-gost:link{
+color: #d35400;
+}
+.btn:hover,
+.btn:active{
+    background-color: #bd4c02;
+    color: white;
+}
+
+
+/* -------------------------------------- */
+ /* style the logo and nav bar */
+/* -------------------------------------- */
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: 10px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    padding: 25px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited
+{
+text-decoration: none;
+color: white;
+letter-spacing: 1px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active
+{
+border-bottom: 2px solid white;
+color: #993d00; ;
 }
