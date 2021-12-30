@@ -161,7 +161,7 @@ color: #bd4c02 ;
     width: 50px;
 }
 .section{
-    padding: 80px 0px;
+    padding: 35px 0px;
 }
 
 .section .loge-copy{
@@ -183,7 +183,7 @@ color: #bd4c02;
 }
 
 
-/* feature img  */
+/* meal section  */
 .meal-showcase{
     list-style: none;
     width: 100%;
@@ -216,4 +216,58 @@ color: #bd4c02;
     transform: scale(1.03) ;
     opacity: 1;
 
+}
+
+.section-meals{
+    padding: 35px 0px;
+}
+
+
+/* -------------------------------------- */
+ /* How it work */
+/* -------------------------------------- */
+
+
+.step-box{
+    margin-top: 30px;
+}
+.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.step-box:last-child{
+    padding-left: 3%;
+}
+
+.app-screen{
+    width: 30%;
+    float: right;
+    margin-right: 100px;
+}
+.work-step{
+    margin-bottom: 50px;
+}
+.work-step div{
+    color: black;
+    border: 2px solid #d35400;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;   
+    padding: 5px;
+    float: left;
+    margin-right: 20px;
+}
+
+.clearflex{
+    clear: both;
+}
+
+.section-meals{
+ margin-bottom: 0;
+ padding-bottom: 0;
+}
+.section-steps{
+    padding-top: 25px;
+    background-color: rgb(235, 226, 226);
 }
