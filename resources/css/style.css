@@ -164,11 +164,15 @@ color: #bd4c02 ;
     padding: 80px 0px;
 }
 
-.loge-copy{
-    font-family: sans-serif;
+.section .loge-copy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     word-spacing: 2px;
-    width: 100%;
+    text-align: center;
 }
+
+/* -------------------------------------- */
+ /* Feature section */
+/* -------------------------------------- */
 .features div{
     padding: 10px;
 }
@@ -176,4 +180,40 @@ ion-icon{
 font-size: 400%;
 display: block;
 color: #bd4c02;
+}
+
+
+/* feature img  */
+.meal-showcase{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.meal-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15) ;
+    transition: transform 0.5s,opacity 0.5s;
+    
+}
+
+.meal-photo img:hover{
+    transform: scale(1.03) ;
+    opacity: 1;
+
 }
