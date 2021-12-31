@@ -271,3 +271,43 @@ color: #bd4c02;
     padding-top: 25px;
     background-color: rgb(235, 226, 226);
 }
+
+/* -------------------------------------- */
+ /* city Section */
+/* -------------------------------------- */
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+.box h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.city-featur{
+    margin-bottom: 25px;
+}
+.city-featur ion-icon{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #d35400;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+}
+
+
+.city-featur a:visited,
+.city-featur a:link{
+    text-decoration: none;
+    margin-top: -15px;
+    color: #d35400; 
+    border-bottom: 1px solid #d35400;
+    transition: background-color 0.2s, color 0.2s;
+}
+.city-featur a:hover,
+.city-featur a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
