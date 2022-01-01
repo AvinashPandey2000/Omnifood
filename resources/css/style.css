@@ -297,7 +297,6 @@ color: #bd4c02;
     vertical-align: middle;
 }
 
-
 .city-featur a:visited,
 .city-featur a:link{
     text-decoration: none;
@@ -311,3 +310,53 @@ color: #bd4c02;
     color: #555;
     border-bottom: 1px solid transparent;
 }
+
+/* -------------------------------------- */
+ /* customer review section */
+/* -------------------------------------- */
+
+.reviewsection{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgb(0,0,0,0.8)), url(img/hero.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    color: white;
+}
+blockquote{
+    padding: 2%;
+    font-size: italic;
+    color: white;
+    line-height: 145%;
+    text-align: left;
+    word-spacing: 5px;
+}
+
+blockquote:before{
+    content: "\201c";
+    font-size: 600%;
+    display: block;
+    
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    /* display: block; */
+    vertical-align: middle;
+    margin-right: 25px;
+}
+cite p{
+    display: inline;
+    border-bottom: 1px solid white;
+}
+
+/* -------------------------------------- */
+ /*  */
+/* -------------------------------------- */
