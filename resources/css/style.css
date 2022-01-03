@@ -438,3 +438,33 @@ cite p{
     margin: 25px;
     
 }
+
+
+/* -------------------------------------- */
+ /* Footer Section */
+/* -------------------------------------- */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+.unstyle li{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+    white-space: 2px;
+    font-weight: 400;
+
+}
+.unstyle ion-icon{
+    display: block;
+    float: right;
+}
+.footer-social ion-icon{
+    margin-left: 15px;
+}
+.footer-heading{
+    margin-top: 10px;
+    text-align: center;
+}
