@@ -416,3 +416,25 @@ cite p{
 /* -------------------------------------- */
  /* Contact Section */
 /* -------------------------------------- */
+
+.contact-section{
+    padding: 35px 0px;
+    text-align: center;
+}
+.contact-attribut label{
+    font-size: 3vh;
+    display: block;
+    float: left;
+    margin-left: 20%;
+    padding-bottom: 25px;
+   
+}
+.contact-attribut input,select,textarea{
+    display: block;
+    float: right;
+    margin-right: 20%;
+}
+.contact-attribut a{
+    margin: 25px;
+    
+}
